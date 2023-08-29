@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    display: block;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+}
+header {
+    display: flex;
+    padding: 20px 20px;
+}
+header .side-bar{
+    width: 200px;
+    height: 550px;
+    display: none;
+    background-color: orangered;
+}
+
+
+.side-bar li {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.side-bar a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s ease;
+}
+header .fa {
+    display: none;
+}
+nav {
+    margin-left: 200px;
+}
+.navItems li {
+    list-style: none;
+}
+nav li {
+    display: inline;
+    padding: 20px;
+    padding-top: 20px;
+    transition: 0.2s ease;
+}
+.navItems .home {
+    color: orangered;
+    border-bottom: 2px solid orangered;
+    width: 25px;
+}
+
+nav a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+nav a:hover {
+    color: orangered;
+}
+.logo {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.links img {
+    width: 50px;
+    height: 50px;
+}
+header button {
+    width: 140px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 20px;
+    color: #fff;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    margin-left: 300px;
+}
+
+.container {
+    display: block;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.container .textbox {
+    text-align: left;
+}
+.textbox h1 {
+    font-size: 40px;
+    color: #fff;
+}
+.textbox span {
+    font-size: 60px;
+    font-weight: bolder;
+    color: orangered;
+
+}
+.textbox h2 {
+    font-size: 35px;
+    color: #fff;
+}
+.textbox p {
+    color: #fff;
+    font-size: 18px;
+} 
+.container button {
+    width: 120px;
+    height: 30px;
+    outline: none;
+    border: 0;
+    background-color: orangered;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.container .hire-btn {
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: 0;
+    background-color: orangered;
+    color: #fff;
+    margin-left: 20px;
+}
+.container button:hover {
+    color: rgba(0, 0, 0, .8) orangered;
+}
+.social {
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+}
+.social span {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff;
+}
+.social .fa {
+    color: #fff;
+    font-size: 22px;
+}
+.soc-nav img {
+    width: 40px;
+    height: 40px;
+}
+.dp-img {
+    display: flex;
+    margin-left: 50%;
+    margin-top: -200px;
+}
+.dp-img img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+@media(max-width: 700px){
+    body {
+     
+    }
+    .logo {
+        font-size: 30px;
+    }
+    nav {
+       display: none;
+    }
+    header button {
+    display: none;
+    }
+    header .fa-bars {
+        font-size: 24px;
+        color: #fff;
+        display: flex;
+        margin-left: 70%;
+        cursor: pointer;
+    }
+    header .fa-times {
+        font-size: 20px;
+        margin: 10px;
+        color: #fff;
+        display: block;
+        cursor: pointer;
+    }
+    .container {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+   
+    .textbox h1 {
+        font-size: 25px;
+        color: #fff;
+    }
+    .textbox span {
+        font-size: 20px;
+        font-weight: bolder;
+        color: orangered;
+    
+    }
+    .textbox h2 {
+        font-size: 20px;
+        color: #fff;
+    }
+    .textbox p {
+        color: #fff;
+        font-size: 14px;
+        margin-top: 5px;
+    } 
+    .social span {
+        font-size: 16px;
+        display: flex;
+        font-weight: bolder;
+        color: #fff;
+    }
+    
+    .dp-img {
+        display: flex;
+        margin-left: -10%;
+        margin-top: -70px;
+    }
+    .dp-img img {
+        margin-top: 200px;
+        margin-right: 100px;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+    }
+    header .side-bar{
+        width: 150px;
+        height: 450px;
+        display: flex;
+        margin-left: -15%;
+        margin-top: 80px;
+        background-color: orangered;
+    }
+    .side-bar li {
+        margin: 20px;
+        margin-top: -10px;
+    }
+    .side-bar a:hover {
+        color: yellow;
+    }
+    .side-bar a {
+        text-decoration: none;
+        color: #fff;
+        transition: 0.2s ease;
+    }
+    .side-bar .home {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    width: 80px;
+       
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="font/css/all.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Welcome!</div><i class="fa fa-bars" onclick="document.getElementById('hideshow').style.display = 'flex'"></i>
+        <div class="side-bar" id="hideshow" style="display: none;">
+            <div class="nav-bar">
+                <i class="fa fa-times" onclick="document.getElementById('hideshow').style.display = 'none'"></i>
+                <ul class="navItems">
+                    <li class="home"><a href="#">Home</a></li>
+                    <li class="about"><a href="#">About</a></li>
+                    <li class="skills"><a href="#">Skills</a></li>
+                    <li class="blog"><a href="#">Blog</a></li>
+                    <li class="projects"><a href="#">Projects</a></li>
+                    <li><a href="#">Send a message</a></li>
+                </ul>
+            </div>
+        </div>   
+        <nav>
+            <ul class="navItems">
+                <li class="home"><a href="#">Home</a></li>
+                <li class="about"><a href="#">About</a></li>
+                <li class="skills"><a href="#">Skills</a></li>
+                <li class="blog"><a href="#">Blog</a></li>
+                <li class="projects"><a href="#">Projects</a></li>
+            </ul>
+        </nav>
+        <button class="cta">Send a message</button>
+    </header>
+    <div class="container">
+        <div class="textbox">
+            <h1>Hello!</h1>
+            <h2>My Names's <span>Adeagbo Tomiwa</span></h2>
+            <p>I'm a Graphics Designer, Web/Mobile App Developer, <br>and also a 3D Animator.</p>
+        </div>
+        <button class="contact-btn">Contact me</button><button class="hire-btn">Hire me</button>
+    </div>
+    <div class="social">
+        <div class="soc-nav">
+            <span>Follow me up on socials <i class="fa fa-caret-down"></i></span>
+            <div class="img-box">
+                <img src="images/vecteezy_twitter-logo-isolated-with-transparent-background-cut-out_20951224_199.png">
+                <img src="./images/facebook.png">
+                <img src="./images/insta.png">
+                <img src="./images/whatsapp.png">
+            </div>
+        </div>
+        <div class="dp-img">
+            <img src="./images/my img.PNG">
+        </div>
+    </div>
+
+    <!-- <div class="wrapper">
+        <div class="cols0 cols0">
+            <span class="topline">Hello</span>
+            <h1>I'm a <span class="multiText">Web Developer</span></h1>
+            <p>I'm a Graphics Designer, Web/Mobile App Developer, <br>and also a 3D Animator.</p>
+            <div class="btns">
+                <a href="#"><button class="contact">Contact me</button></a>
+                  <a href="#"><button class="contact">Hire me</button></a>
+            </div>
+        </div>
+    </div> -->
+    
+</body>
+</html>
